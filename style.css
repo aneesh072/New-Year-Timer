@@ -11,6 +11,44 @@ body{
     background-size: cover;
     background-position: centre center;
     color: azure;
-    
+}
 
+.countdown-container{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    display: block;
+   
+}
+
+.days-c{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.hours-c{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.mins-c{
+    color: burlywood;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    float: left;
 }
