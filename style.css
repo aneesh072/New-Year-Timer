@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-image: url("newYear.jpeg");
+    background-size: cover;
+    background-position: centre center;
+    color: azure;
+
+}
