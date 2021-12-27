@@ -4,11 +4,12 @@ function countdown(){
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
 
-    const seconds = (newYearsDate - currentDate) / 1000;
+    const totalSeconds = (newYearsDate - currentDate) / 1000;
 
-    const days = Math.floor(seconds / 3600 / 24);
-    const hours = Math.floor(seconds / 3600) % 24;
-    const minutes =  (Math.floor(seconds / 60) % 60);
+    const days = Math.floor(totalSeconds / 3600 / 24);
+    const hours = Math.floor(totalSeconds / 3600) % 24;
+    const minutes =  (Math.floor(totalSeconds / 60) % 60);
+    const seconds = Math.floor(totalSeconds) % 60;
 
     console.log(days, hours, minutes);
 
@@ -21,7 +22,14 @@ function countdown(){
     const minsLeft = document.getElementById("mins");
     minsLeft.innerText = minutes;
 
+    const secsLeft = document.getElementById("seconds");
+    secsLeft.innerText = seconds;
+
     
+}
+
+function formatTime(time){
+    return time < 10 ? ('0${time}') : time;
 }
 
 //initial call
