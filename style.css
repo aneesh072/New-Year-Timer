@@ -7,48 +7,40 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-image: url("newYear.jpeg");
     background-size: cover;
-    background-position: centre center;
+    background-position: center center;
     color: azure;
+    justify-content: center;
+    align-items: center;
 }
 
 .countdown-container{
-    color: burlywood;
-    font-weight: bold;
-    font-size: 80px;
-    margin: 0;
-    text-align: center;
-    display: block;
-   
+    display: flex;
 }
 
-.days-c{
-    color: burlywood;
-    font-weight: bold;
-    font-size: 80px;
-    margin: 0;
-    text-align: center;
-    display: block;
-    float: left;
+h1{
+    font-size: 4rem;
+    margin-top: -10rem;
+    font-weight: normal;
 }
 
-.hours-c{
-    color: burlywood;
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
     font-weight: bold;
-    font-size: 80px;
-    margin: 0;
-    text-align: center;
-    display: block;
-    float: left;
 }
 
-.mins-c{
-    color: burlywood;
-    font-weight: bold;
-    font-size: 80px;
-    margin: 0;
+.countdown-el{
     text-align: center;
-    display: block;
-    float: left;
 }
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+
